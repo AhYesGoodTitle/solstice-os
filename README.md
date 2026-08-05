@@ -1,60 +1,73 @@
-<p align="center">
+<!--- Image ---->
+<div align='center'>
   <img width="256" height="256" alt="2026_06_03_0rc_Kleki" src="https://github.com/user-attachments/assets/1ff60b40-d535-4ba9-80e1-9ba69eafd603" />
-</p>
+</div>
+
+<!--- Title Words --->
+<div align='center'>
+   <h1>Solstice OS</h1>
+   <h3>Solstice is an intuitive source-based Linux distribution for people who want to understand what's running on their machine.</h3>
+</div>
 
 
-# solstice os
+<h2>Why Make another Source-Based Distro?</h2>
 
-solstice is a source-based linux distro for people who actually want to understand what's running on their machine.
+Gentoo is cool, but extremely overwhelming. You have 50+ USE flags per package that just pile up and confuse you. Then there are traditional binary-first distros (such as Ubuntu, Debian, Arch, Fedora, etc.), meaning you don't get the performance benefits of compiling packages for *your* specific hardware.  
+But here's the thing — a sourced based distro doesn't have to be a nightmare. **Solstice takes the good parts (control, performance, understanding your system) and cuts out all the complexity.**  
+<div align='center'>
+<b>We don't want overlays (extra package repos) to be some afterthought. They're first-class citizens. The user chooses what overlays they want from the packagers they trust.</b>
+</div>
 
-## why make another distro?
 
-gentoo is cool but it's overwhelming. you've got 50+ USE flags per package that just pile up and confuse you. then you've got arch and fedora which are binary-first, meaning you don't really get the performance benefits of compiling for *your* specific hardware. but here's the thing — source-based doesn't have to be a nightmare. solstice takes the good parts (control, performance, understanding your system) and cuts out all the complexity.
+<!--- Unsure whether this is needed
+<h2>Solstice OS Features</h2>
 
-## what even is solstice?
+**Solstice is a modern source-based distro.** We're talking Systemd, Wayland by default (*see Appendix A for important information*), no ancient legacy garbage. You compile packages from source, optimize for your CPU, and know exactly what's on your machine. Unlike Gentoo where you pick every single knob, we do things differently: **We chose sensible defaults, and the user can change what they want.**
+--->
 
-it's a source-based distro that's actually modern. we're talking systemd, x11 by default (wayland coming soon), no ancient legacy garbage. you compile from source, you optimize for your cpu, you know what's on your machine. but unlike gentoo where you pick every single knob, we're like "hey, we chose good defaults, just use those unless you want to change something."
+<h2>Who was Solstice Built For?</h2>
 
-and honestly? community is a huge part of this. we don't want overlays (extra package repos) to be some afterthought. they're first-class citizens. someone wants gaming packages? cool, there's an overlay. someone wants ml tools? there's probably an overlay. you just add it and go.
+- The person trying to understand how Linux actually works.
+- Performance nerds who wants to squeeze every bit out of their hardware.
+- Any developer who needs full control over their system.
+- People who appreciate a decentralized design. 
+- Someone who just wants things to work without thinking about it? Honestly, just use Ubuntu LTS, no shame 🙃.
 
-oh, and we care about performance. modern cpus, modern kernels, optimized builds. none of that old stuff weighing you down.
+<h2>Our Philosophy</h2>
 
-## who's this for?
+- Solstice picks sensible defaults, but you can easily override them
+- You compile your packages once, and it runs forever
+- The community handles the extras, not us
+- Full transparency over gatekeeping
+<!--- TODO: Is this rolling release? What is the update cadence? Do we control the init system and kernel? --->
 
-- you trying to understand how linux actually works? perfect.
-- performance nerd who wants to squeeze every bit out of their hardware? we got you.
-- developer who needs full control over their system? yeah, this is your jam.
-- community person who wants to create overlays and contribute? dude, you're gonna be a pioneer here.
-- someone who just wants things to work without thinking about it? honestly, just use ubuntu, no shame.
+<!--- TODO:
+<h2>Appendix A</h2>
+See line 25 for more info
+--->
 
-## our philosophy
+<h2>Where Development is at</h2>
 
-- we picked good defaults, but you can override them
-- you compile once, it runs forever
-- community handles the extras, not us
-- transparency over gatekeeping
+Solstice OS is in very early development. See [ROADMAP.md](https://github.com/solsticelinux/solstice-os/blob/main/ROADMAP.md) and [MASTERPLAN.md](https://github.com/solsticelinux/solstice-os/blob/main/MASTERPLAN.md) for more information.
 
-## where we're at
-
-solstice is in development. we're starting for real in june 2026, aiming for an alpha in september. we're learning as we build this thing. if you want to jump in and learn alongside us, we're absolutely down for that.
-
+<!--- Unsure whether this is needed or up to date
 **current status (april 2026):**
 - 4.9K+ Reddit views on r/linuxfromscratch
 - active Discord community with early collaborators
 - technical architecture finalized
 - community growing organically
+--->
 
-## let's go
+<!--- I don't think this section belongs here since there's no source code or build instructions yet
+<h2>I'm interested. Where do I Begin?</h2>
 
-want to build solstice?
-
-- get debian or whatever on your machine (you'll need build tools)
+- Get a standard, moderately up to date Linux distro or other supported software (you'll need build tools)
 - check out the [ROADMAP.md](ROADMAP.md)
 - ~~peek at the source on github~~ theres no source yet.
-- hang out in our discord: https://discord.gg/56DYRUnzP5
 
-## props
-
-big thanks to:
-- **NEOAPPS** — early collaborator, distro developer, architecture advisor
-- **linux from scratch** — that book is insane, literally teaches you how to build a distro from nothing
+--->
+<h2>Shoutouts</h2>
+Hang out in our Discord server :) : https://discord.gg/56DYRUnzP5
+- <b>NEOAPPS</b> — Early collaborator, distro developer, helping with package manager architecture<br>  
+- <b>AhYesGoodTitle</b> — Making the documentation beautiful 🤩<br>
+- <b>Linux From Scratch</b> — The inspiration for how we approach bootstrapping [https://www.linuxfromscratch.org/]
