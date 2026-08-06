@@ -68,6 +68,7 @@ Solstice OS is in very early development. See [ROADMAP.md](https://github.com/so
 --->
 <h2>Shoutouts</h2>
 Hang out in our Discord server :) : https://discord.gg/56DYRUnzP5
+
 - <b>NEOAPPS</b> — Early collaborator, distro developer, helping with package manager architecture<br>  
 - <b>AhYesGoodTitle</b> — Making the documentation beautiful 🤩<br>
 - <b>Linux From Scratch</b> — The inspiration for how we approach bootstrapping [https://www.linuxfromscratch.org/]
