@@ -1,14 +1,16 @@
-# contributing to solstice os
+<div align='center'>
+<h1>Contributing to the Solstice OS Project!</h1>
+</div>  
 
-so you want to help build solstice? cool. here's how.
 
-## making an overlay (the main way people contribute)
+<h3>1. Making an Overlay (the primary way people contribute)</h3>
+The whole point of Solstice is that overlays are decentralized. You make one, you share it, people use it. <b><i>No gatekeeping, no approval process</i></b>.
 
-the whole point of solstice is that overlays are decentralized. you make one, you share it, people use it. no gatekeeping, no approval process.
 
-### what an overlay looks like
+<h4>1a. Create Your Overlay</h4>
 
-create a github repo. that's it. structure it like this:
+Create a git repository. That's it. 
+Structure it like this:
 
 ```
 your-overlay/
@@ -20,57 +22,66 @@ your-overlay/
 └── metadata.yml (optional)
 ```
 
-pretty straightforward.
 
-### test it locally
+<h3>1b. Test it Locally</h3>
 
-before you share it, test it:
+Before you share your overlay, test it in Solstice:
 
 ```bash
-solpm add-overlay /path/to/your-overlay
+solpm add-overlay /local-path/to/your-overlay
 solpm install package1
 ```
+Does it work? Cool, you're good to go.<br><br>  
 
-does it work? cool, ship it.
+<h3>1c. Share Your Overlay With the World</h3>
 
-### share it with the world
-
-push to github and share the url:
+Push to GitHub (or your preferred git host) and get people to add your overlay to their Solstice machines: 
 
 ```bash
+# Users will have to add your overlay manually
+# GitHub example:
 solpm add-overlay https://github.com/yourname/your-overlay
 ```
 
-people can now use your overlay. that's it. you're done.
+<b>People can now use your overlay. That's it. You're done.</b><br><br>
 
-## annual awards
 
-every year we do this thing where the community votes on the best overlays. winners get:
+<h2>2. Annual Awards</h2>
+
+<b>Every year the community gets the chance to vote on the best overlays.  
+Winners get: </b>
+<i>
 - featured on solstice-os.org
 - mentioned in the release notes
 - community recognition
+</i>
 
-we're not gatekeeping winners or anything. just celebrating people who made cool stuff. and yeah, you still manually add them, we're not forcing anything.
+This is not intended to gate-keep winners, just celebrating people who made cool stuff. And yes, you still manually add them. <b><i>We're not forcing anyone to use an overlay.</b></i>
 
-## contributing to core recipes
+<h2>3. Contributing to Core Recipes</h2>
 
-want to improve the core distro itself? yeah, we take pull requests.
+Want to improve the core distro itself? Yep, we take pull requests!
+<i>
+- Found a bug? File an issue
+- Made a fix? Send a pull request
+- Improved our documentation? We'll merge it
+- <b>You will get credited.</b>
+</i>
 
-- find a bug? file an issue.
-- got a fix? send a pr.
-- improved documentation? we'll merge it.
-- you'll get credited.
 
-## just be cool about it
+## Lastly, Just be Cool About it
+<i>
+- Be nice to people<br>
+- Don't be a gatekeeper<br>  
+- Credit the people who help you<br>  
+- Help new users and developers learn<br>  
+- <b>Solstice is open source. We're all here because we love free and open source software ❤️</b>
+</i><br><br>
+<div align='center'>
+<h3>That's it. Build cool overlays, contribute when you feel like it, or hang out in the awesome community. We're all learning together.</h3>
+</div>
 
-- be nice to people
-- don't be a gatekeeper
-- credit people who help you
-- help newer people learn
-- it's open source, we're all here because we like this stuff
-
-that's it. build cool overlays, contribute when you feel like it, hang out in the community. we're all learning together.
-
-## shoutouts
-- **NEOAPPS** — early collaborator, distro developer, helping with package manager architecture
-- **linux from scratch** — the inspiration for how we approach bootstrapping
+<h2>Shoutouts</h2>
+- <b>NEOAPPS</b> — Early collaborator, distro developer, helping with package manager architecture<br>  
+- <b>AhYesGoodTitle</b> — Making the documentation beautiful 🤩<br>
+- <b>Linux From Scratch</b> — The inspiration for how we approach bootstrapping [https://www.linuxfromscratch.org/]
