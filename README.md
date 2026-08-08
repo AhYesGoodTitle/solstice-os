@@ -15,7 +15,7 @@
 Gentoo is cool, but extremely overwhelming. You have 50+ USE flags per package that just pile up and confuse you. Then there are traditional binary-first distros (such as Ubuntu, Debian, Arch, Fedora, etc.), meaning you don't get the performance benefits of compiling packages for *your* specific hardware.  
 But here's the thing — a sourced based distro doesn't have to be a nightmare. **Solstice takes the good parts (control, performance, understanding your system) and cuts out all the complexity.**  
 <div align='center'>
-<b>We don't want overlays (extra package repos) to be some afterthought. They're first-class citizens. The user chooses what overlays they want from the packagers they trust.</b>
+<b>We don't want overlays (extra package repos) to be some afterthought. They're first-class citizens. The user chooses what overlays they want from the developers they trust.</b>
 </div>
 
 
