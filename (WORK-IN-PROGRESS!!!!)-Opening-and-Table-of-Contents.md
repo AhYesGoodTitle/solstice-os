@@ -10,6 +10,7 @@ Most standard Linux distributions use a [binary](https://web.archive.org/web/202
 <br>
 
 <!--- Table of contents --->
-<h1>Table of Contents</h1>  
-<h3>1. Installation and Build Guide</h3>  
+<h1>Table of Contents</h1>
+  
+<h3><a href="Installation-and-Build-Guide">1. Installation and Build Guide</a></h3>  
 <h3>2. Using Solpm</h3>     
