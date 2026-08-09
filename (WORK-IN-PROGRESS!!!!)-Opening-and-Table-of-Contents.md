@@ -12,5 +12,6 @@ Most standard Linux distributions use a [binary](https://web.archive.org/web/202
 <!--- Table of contents --->
 <h1>Table of Contents</h1>
   
-<h3><a href="Installation-and-Build-Guide">1. Installation and Build Guide</a></h3>  
+<h3><a href="What-is-Solstice-OS?">1. What is Solstice OS?</h3>
+<h3><a href="Installation-and-Build-Guide">2. Installation and Build Guide</a></h3>  
 <h3>2. Using Solpm</h3>     
