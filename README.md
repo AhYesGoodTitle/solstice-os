@@ -48,7 +48,7 @@ See line 25 for more info
 
 <h2>Where Development is at</h2>
 
-Solstice OS is in very early development. See [ROADMAP.md](ROADMAP.md) and [MASTERPLAN.md](MASTERPLAN.md) for more information.
+Solstice OS is in very early development. See [ROADMAP.md](Future-Plans/ROADMAP.md) and [MASTERPLAN.md](Future-Plans/MASTERPLAN.md) for more information.
 
 <!--- Unsure whether this is needed or up to date
 **current status (april 2026):**
